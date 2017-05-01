@@ -1,0 +1,30 @@
+﻿<!-- 
+ * ---------------------------------------- *
+ * Simple HTML5 Audio Player                *
+ * HTML                               		*
+ * v1.0.2                              *
+ * Matt O'Neill | www.matt-oneill.co.uk     *
+ * ---------------------------------------- *
+ -->
+
+
+<!-- mark up -->
+<title>jQuery Simple HTML5 Audio Player Demo</title>
+
+<h1 style="margin-top:150px; margin-bottom:150px" align="center">jQuery Simple HTML5 Audio Player Demo</h1>
+<div class="audio-player" id="audio-player-1"></div>
+
+<!-- requires jQuery UI -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="dependencies/jquery-ui-1.10.3.custom.min.css">
+<link rel="stylesheet" href="simple-html5-music-player.css">
+<script src="simple-html5-music-player.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	/* place inside document ready function */
+	$("#audio-player-1").audioPlayer({
+		mp3Src: "src/Test1.mp3",
+		oggSrc: "src/Test1.ogg",
+		autoPlay: false
+	});
+</script>
