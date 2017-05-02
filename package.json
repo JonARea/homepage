@@ -1,0 +1,19 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "my homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonARea/homepage.git"
+  },
+  "author": "Jon Rea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonARea/homepage/issues"
+  },
+  "homepage": "https://github.com/JonARea/homepage#readme"
+}
